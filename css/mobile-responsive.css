@@ -1,0 +1,193 @@
+@media all and (max-width:991px)
+{
+	.stellarnav.light{
+		background: transparent!important;;
+	}
+
+	.stellarnav.light .menu-toggle,.stellarnav.active{
+		color: #000!important;
+		z-index: 9999 !important;
+	}
+	#main-nav {
+		display:block;		
+	}
+	.mobile-logo .img-responsive{
+		width: 150px;
+		padding: 0 10px;
+	}
+	#desktop-menu {
+		display:none;
+	}
+	#main-nav.active{
+		background: #fff!important;
+	}
+	.service{
+		padding: 2em 0;
+	}
+	.service-invest{
+		padding: 1em 0 3em 0;
+	}
+	#service .col-sm-4{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	#service .col-sm-8{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	#service .col-sm-6{
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.work{
+		padding: 2em 0;
+	}
+	#work .col-sm-6{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.borrow-right{
+		padding: 2em 0 0 0;
+	}
+	.quote{
+		padding: 2em 0 0 0;
+	}
+	.process{
+		padding: 2em 0;
+	}
+	.invest-right-master{
+		padding: 0;
+	}
+	#investment .col-sm-8{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+		#investment .col-sm-4{
+		flex: 0 0 50%;
+		max-width: 100%;
+	}
+	.stats{
+		padding: 2em 0;
+	}
+	#stats .col-sm-6{
+		flex: 100%;
+		max-width: 100%;
+	}
+	#stats .col-sm-3{
+		flex: 100%;
+		max-width: 100%;
+	}
+	.stats-box .col-sm-3{
+		flex: 50%!important;
+		max-width: 100%;
+
+	}
+	.feed{
+		padding: 2em 0;
+	}
+	.feed-blank{
+		padding: 0;
+	}
+	.feed-text{
+		width: 80%;
+	}
+	.contact-us{
+		padding: 3em 0;
+	}
+	#contact .col-sm-2{
+		flex: 0 0 0;
+		max-width: 0%;
+	}
+	#contact .col-sm-8{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	#contact .col-sm-6{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.contact-input{
+		padding: 0 2em 0;
+	}
+	.footer{
+		padding: 3em 0;
+	}
+	#footer .col-sm-4{
+		flex: 0 0 50%;
+		max-width: 100%;
+	}
+	#footer .col-sm-3{
+		flex: 0 0 50%;
+		max-width: 100%;
+	}
+	.left-foot{
+		padding: 0 ;
+		border-right: 0px solid rgba(132,137,145,1);
+		border-bottom: 1px solid rgba(132,137,145,1)
+	}
+	.banner-area img{
+		height:500px
+	}
+	.banner-content{
+		top: 20%;
+	}
+}
+
+
+@media screen and (max-width:568px){
+	.left-quote{
+		height: 300px;
+	}
+	.process-line{
+		bottom: 0;
+		top: 100%;
+		left: -162px;
+		right: 0
+	}
+	
+}
+
+
+@media all and (max-width:768px){
+	.mobile-content {
+	  display:block;
+	}
+	
+	#service .col-sm-6{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	#investment .col-sm-4{
+		flex: 0 0 70%;
+		max-width: 100%;
+	}
+	#footer .col-sm-4{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	#footer .col-sm-3{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+
+@media all and (max-width:1199px){
+	.menu-new li a {
+		letter-spacing:0;
+		font-size:13px;
+		padding: 11px;
+	}
+	.sign-up button{
+		padding: 10px 25%;
+	}
+		.down-link img{
+		margin: 0;
+        top: 89%;
+		left: 47%;
+}
+	.team-left-img a {
+    top: 35%;
+    left: 37%;
+}
+}
+
